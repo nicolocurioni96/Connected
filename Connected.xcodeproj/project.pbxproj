@@ -16,6 +16,7 @@
 		A130C8912AE59148001C2F7C /* ConnectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C8902AE59148001C2F7C /* ConnectedTests.swift */; };
 		A130C89B2AE59148001C2F7C /* ConnectedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C89A2AE59148001C2F7C /* ConnectedUITests.swift */; };
 		A130C89D2AE59148001C2F7C /* ConnectedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C89C2AE59148001C2F7C /* ConnectedUITestsLaunchTests.swift */; };
+		A130C8AA2AE59651001C2F7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A130C8A92AE59651001C2F7C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A130C8962AE59148001C2F7C /* ConnectedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A130C89A2AE59148001C2F7C /* ConnectedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedUITests.swift; sourceTree = "<group>"; };
 		A130C89C2AE59148001C2F7C /* ConnectedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A130C8A92AE59651001C2F7C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		A130C86D2AE59141001C2F7C = {
 			isa = PBXGroup;
 			children = (
+				A130C8A92AE59651001C2F7C /* README.md */,
 				A130C8782AE59141001C2F7C /* Connected */,
 				A130C88F2AE59148001C2F7C /* ConnectedTests */,
 				A130C8992AE59148001C2F7C /* ConnectedUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				A130C8862AE59147001C2F7C /* LaunchScreen.storyboard in Resources */,
 				A130C8832AE59146001C2F7C /* Assets.xcassets in Resources */,
+				A130C8AA2AE59651001C2F7C /* README.md in Resources */,
 				A130C8812AE59141001C2F7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
