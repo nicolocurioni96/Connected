@@ -149,6 +149,11 @@ GET restcountries.com/v3.1/name/usa
 
 ---
 
+### Credits
+* Restcountries.com [REST API](https://restcountries.com/)
+
+---
+
 ## Get in Touch
 
 [![X](https://img.shields.io/badge/X-Nicolò_Curioni-darkgrey.svg)](https://bit.ly/3KHu7Kk)
