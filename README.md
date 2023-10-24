@@ -1,4 +1,5 @@
 # Connected App Case Study
+![](https://github.com/nicolocurioni96/Connected/workflows/CI-iOS/badge.svg)
 
 ## Connected Country Feature Specs
 
