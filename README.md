@@ -1,5 +1,4 @@
 # Connected App Case Study
-![](https://github.com/nicolocurioni96/Connected/workflows/CI-iOS/badge.svg) [![CI-iOS](https://github.com/nicolocurioni96/Connected/actions/workflows/CI-iOS.yml/badge.svg?branch=master&event=deployment_status)](https://github.com/nicolocurioni96/Connected/actions/workflows/CI-iOS.yml)
 
 ## Connected Country Feature Specs
 
