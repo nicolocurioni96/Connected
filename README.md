@@ -1,4 +1,5 @@
 # Connected App Case Study
+![platforms](https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad-lightgrey) 
 
 ## Connected Country Feature Specs
 
