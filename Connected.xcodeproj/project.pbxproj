@@ -10,13 +10,13 @@
 		A130C87A2AE59141001C2F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C8792AE59141001C2F7C /* AppDelegate.swift */; };
 		A130C87C2AE59141001C2F7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C87B2AE59141001C2F7C /* SceneDelegate.swift */; };
 		A130C87E2AE59141001C2F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C87D2AE59141001C2F7C /* ViewController.swift */; };
-		A130C8812AE59141001C2F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A130C87F2AE59141001C2F7C /* Main.storyboard */; };
 		A130C8832AE59146001C2F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A130C8822AE59146001C2F7C /* Assets.xcassets */; };
 		A130C8862AE59147001C2F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A130C8842AE59147001C2F7C /* LaunchScreen.storyboard */; };
 		A130C8912AE59148001C2F7C /* ConnectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C8902AE59148001C2F7C /* ConnectedTests.swift */; };
 		A130C89B2AE59148001C2F7C /* ConnectedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C89A2AE59148001C2F7C /* ConnectedUITests.swift */; };
 		A130C89D2AE59148001C2F7C /* ConnectedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130C89C2AE59148001C2F7C /* ConnectedUITestsLaunchTests.swift */; };
 		A130C8AA2AE59651001C2F7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A130C8A92AE59651001C2F7C /* README.md */; };
+		A16E62DF2AE7D3A200EBB42C /* CountryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E62DE2AE7D3A200EBB42C /* CountryListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		A130C8792AE59141001C2F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A130C87B2AE59141001C2F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A130C87D2AE59141001C2F7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A130C8802AE59141001C2F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A130C8822AE59146001C2F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A130C8852AE59147001C2F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A130C8872AE59147001C2F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		A130C89A2AE59148001C2F7C /* ConnectedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedUITests.swift; sourceTree = "<group>"; };
 		A130C89C2AE59148001C2F7C /* ConnectedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A130C8A92AE59651001C2F7C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A16E62DE2AE7D3A200EBB42C /* CountryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 			children = (
 				A130C8792AE59141001C2F7C /* AppDelegate.swift */,
 				A130C87B2AE59141001C2F7C /* SceneDelegate.swift */,
+				A16E62DE2AE7D3A200EBB42C /* CountryListController.swift */,
 				A130C87D2AE59141001C2F7C /* ViewController.swift */,
-				A130C87F2AE59141001C2F7C /* Main.storyboard */,
 				A130C8822AE59146001C2F7C /* Assets.xcassets */,
 				A130C8842AE59147001C2F7C /* LaunchScreen.storyboard */,
 				A130C8872AE59147001C2F7C /* Info.plist */,
@@ -195,6 +195,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Nicolò Curioni";
 				TargetAttributes = {
 					A130C8752AE59141001C2F7C = {
 						CreatedOnToolsVersion = 15.0;
@@ -237,7 +238,6 @@
 				A130C8862AE59147001C2F7C /* LaunchScreen.storyboard in Resources */,
 				A130C8832AE59146001C2F7C /* Assets.xcassets in Resources */,
 				A130C8AA2AE59651001C2F7C /* README.md in Resources */,
-				A130C8812AE59141001C2F7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +264,7 @@
 			files = (
 				A130C87E2AE59141001C2F7C /* ViewController.swift in Sources */,
 				A130C87A2AE59141001C2F7C /* AppDelegate.swift in Sources */,
+				A16E62DF2AE7D3A200EBB42C /* CountryListController.swift in Sources */,
 				A130C87C2AE59141001C2F7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +302,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A130C87F2AE59141001C2F7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A130C8802AE59141001C2F7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A130C8842AE59147001C2F7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,6 +435,7 @@
 		A130C8A12AE59148001C2F7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALTERNATE_OWNER = "$(OWNER)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,9 +445,9 @@
 				INFOPLIST_FILE = Connected/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_OWNER = "$(OWNER)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +464,7 @@
 		A130C8A22AE59148001C2F7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALTERNATE_OWNER = "$(OWNER)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,9 +474,9 @@
 				INFOPLIST_FILE = Connected/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_OWNER = "$(OWNER)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
